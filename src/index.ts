@@ -8,3 +8,4 @@ export { dispatch } from './dispatch.js';
 export { listen } from './listen.js';
 export { wait } from './wait.js';
 export { shuffle } from './shuffle.js';
+export { getErrorMessage } from './get-error-message.js';
