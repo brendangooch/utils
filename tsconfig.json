@@ -24,6 +24,6 @@
     "noEmitOnError": true,
     "removeComments": true,
     "allowSyntheticDefaultImports": true,
-    // "noErrorTruncation": false
+    "noErrorTruncation": false
   }
 }
