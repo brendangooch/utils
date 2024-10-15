@@ -1,12 +1,16 @@
 {
   "name": "@brendangooch/utils",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "a small library of tiny but essential convenience functions",
   "author": "B Gooch <brendangooch@gmail.com>",
   "license": "MIT",
   "scripts": {
     "clear": "rm -rf lib",
-    "build": "npm run clear & tsc"
+    "build": "npm run remove-lib & tsc",
+    "prebuild": "npm run remove-lib",
+    "prepack": "npm run build",
+    "prepublish": "npm run build",
+    "remove-lib": "rm -rf lib"
   },
   "private": false,
   "publishConfig": {
