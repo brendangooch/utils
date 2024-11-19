@@ -1,5 +1,5 @@
 /**
- * 
+ * randomly shuffle an array
 */
 
 export function shuffle<T>(unshuffled: Array<T>): void {

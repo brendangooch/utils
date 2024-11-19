@@ -1,0 +1,3 @@
+v2.2.0
+    changed dispatch function to dispatchCustom function and changed dispatch function to only require a name (+ optional target)
+    updated package to latest config templates

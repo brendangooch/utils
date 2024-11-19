@@ -1,5 +1,5 @@
 /**
- * 
+ * alternative to element.addEventListener(...)
  */
 
 // passive: false allows touchstart event handler to call e.preventDefault()
