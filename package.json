@@ -1,6 +1,6 @@
 {
     "name": "@brendangooch/utils",
-    "version": "2.2.0",
+    "version": "2.3.0",
     "description": "a tiny package of useful utility functions",
     "author": "B Gooch <brendangooch@gmail.com>",
     "license": "MIT",
